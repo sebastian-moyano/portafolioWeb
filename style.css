@@ -55,7 +55,11 @@ body {
   
  
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
+  iframe{
+    width: 300px;
+    height: 559px;
+  }
     .navbar-menu {
         display: none;
         flex-direction: column;
@@ -93,6 +97,7 @@ body {
         margin: 3px 0;
         left: 10px;
     }
+   
 }
 
 
@@ -113,6 +118,10 @@ body {
 
     .navbar-toggle {
         display: none; 
+    }
+    iframe{
+      width: 640px;
+      height: 959px;
     }
 }
 
@@ -206,6 +215,7 @@ section {
     background-color: #fff;
     color: color-mix(in hsl shorter hue, black 50%, grey 20%) ;
 }
+
 /* Estilos para el contenedor de la pantalla de carga */
 #loader {
     position: fixed;
@@ -213,11 +223,11 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+    background-color: rgba(0, 0, 0, 0.8); 
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+    z-index: 9999;
   }
   
   /* Estilos para el péndulo */
@@ -226,8 +236,8 @@ section {
     height: 50px;
     border-radius: 50%;
     border: 5px solid white;
-    border-top-color: transparent; /* Oculta parte superior */
-    animation: spin 1s linear infinite; /* Animación de giro */
+    border-top-color: transparent; 
+    animation: spin 1s linear infinite; 
   }
   
   /* Animación de giro */
@@ -250,8 +260,8 @@ section {
     background-color: white;
     position: absolute;
     top: -20px;
-    left: calc(50% - 7.5px); /* Centra horizontalmente */
-    animation: scale 1s infinite alternate; /* Animación de escala */
+    left: calc(50% - 7.5px); 
+    animation: scale 1s infinite alternate; 
   }
   
   /* Animación de escala */
