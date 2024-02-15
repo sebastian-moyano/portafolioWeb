@@ -168,8 +168,8 @@ section {
 }
 
 .imagen {
-    width: 90px; 
-    height: 90px; 
+    width: 150px; 
+    height: 150px; 
     border-radius: 50%; 
     overflow: hidden; 
     position: relative;
@@ -178,7 +178,7 @@ section {
 }
 .imagen img {
     width: 100%; 
-    height: auto;
+    height: 100%;
     display: block;
     object-fit: cover;  
 }
