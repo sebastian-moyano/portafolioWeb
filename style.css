@@ -1,12 +1,12 @@
 :root{
-  --color-fondo:#fff;
-  --color-arribaDeFondo: #fff;
-  --color-bacgroundMenu: #333333a4;
+  --color-fondo:#2C3E50;
+  --color-arribaDeFondo: #1f3143;
+  --color-bacgroundMenu: #c1bdbda4;
   --color-texto: #fff;
   --color-cajas: #2C3E50;
   --color-fondoMenu: rgba(0, 0, 0, 0.1);
-  --color-itenMenu: #fff;
-  --color-hoverTexto: #2C3E50;
+  --color-itenMenu: #1f3143;
+  --color-hoverTexto: #000;
   --color-icon: #000;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .menu li {
   padding: 15px;
-  border-bottom: 1px solid var(--color-fondo);
+  border-bottom: 1px solid var(--color-itenMenu);
   transition: transform 0.3s ease; 
 }
 
